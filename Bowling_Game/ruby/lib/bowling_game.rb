@@ -4,7 +4,7 @@ require 'byebug'
 
 # responsible for implementing Bowling Game rules
 class BowlingGame
-  def pins(rolls)
+  def initialize(rolls)
     @rolls = rolls
   end
 
